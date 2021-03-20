@@ -1,0 +1,14 @@
+.BlackboxWrapper{
+    background-color: rgb(28,28,28);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4%;
+    margin-top: 2%;
+}
+.BlackboxWrapper > div{
+    padding: 1%;
+    margin: 1%;
+    color: white;
+    /* width: 30%; */
+    background-color: rgb(46,46,46);
+}

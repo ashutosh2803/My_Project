@@ -1,0 +1,47 @@
+.logos{
+    display: flex;
+}
+.logos > img{
+    width: 3%;
+    opacity: 0.8;
+    cursor: pointer;
+    padding: 0.5%;
+}
+.footerWrapper{
+    padding: 1%;
+}
+.copyright{
+    text-align: left;
+    margin-bottom: 3%;
+}
+.footerDetails{
+    display: flex;
+    opacity: 0.8;
+    /* justify-content: space-between; */
+    width: 90%;
+    margin: 5% auto; 
+}
+.links{
+    text-align: left;
+    margin-left: 5%;
+}
+
+.links > p{
+    cursor: pointer;
+}
+.links > p{
+    float: left;
+    padding-right: 3%;
+}
+.links > p:hover{
+    text-decoration: underline;
+}
+.availability{
+    margin-left: 10%;
+    text-align: left;
+    width: 84%;
+    line-height: 20px;
+}
+.availability > h1{
+    margin-bottom: 7%;
+}
