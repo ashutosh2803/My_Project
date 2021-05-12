@@ -1,5 +1,7 @@
 # Costa Coffee
 
+### This website provides best quality handpicked coffee and tea from best of the darjeeling leaves. You can shop in wholesale quantity and get rewarded on every purchase. Follow the Steps to visit the website 
+
 This project is built using React.
 
 ## Available Scripts
