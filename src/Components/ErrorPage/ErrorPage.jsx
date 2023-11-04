@@ -1,14 +1,14 @@
 import React from 'react'
-import { useHistory } from 'react-router';
+import { useNavigate } from 'react-router';
 import styles from "../ErrorPage/ErrorPage.module.css";
 import { Footer } from '../footer/Footer';
 import { Navbar } from '../Navbar/Navbar';
 
 const ErrorPage = () => {
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const handleRedirect = () => {
-        history.push("/")
+        navigate("/")
     }
     return (
         <>

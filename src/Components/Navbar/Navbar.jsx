@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, useHistory } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import styles from "../Navbar/Navbar.module.css";
 import 'react-slideshow-image/dist/styles.css';
 import { BlackBanner } from "../BlackBanner/BlackBanner";
@@ -30,9 +30,9 @@ const links = [
 const Navbar = () => {
     const cartCount = 0;
 
-    const history = useHistory();
+    const navigate = useNavigate();
     const handleRedirect = () => {
-        history.push("/");
+        navigate("/");
     }   
     return (
         <>
