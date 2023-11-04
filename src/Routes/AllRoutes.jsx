@@ -8,7 +8,7 @@ import { Navbar } from "../Components/Navbar/Navbar";
 const AllRoutes = () => {
     return (
         <>
-            <Navbar />
+            <Navbar/>
             <Routes>
                 <Route path="/" element={<HomePage />}>
                     <Route
