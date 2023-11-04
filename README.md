@@ -1,19 +1,16 @@
-# Costa Coffee
+# Costa Coffee v1.0
+---
+## Running the app
 
-### This website provides best quality handpicked coffee and tea from best of the darjeeling leaves. You can shop in wholesale quantity and get rewarded on every purchase. Follow the Steps to visit the website 
+To run the deployed app, visit https://costa-coffee.netlify.app
 
-This project is built using React.
+To run the app locally, 
 
-## Available Scripts
+1.  download the repository in your pc locally.
+2.  run these commands
+    ### `npm install`
+    ### `npm start`
 
-In the project directory, you can run:
-
-## `npm react-router-dom react-slideshow-image`
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-
-> **Important Note:** All functionalities are not available and some part are purely HTML and CSS. Development in progress.
+![Costa_Coffee](https://user-images.githubusercontent.com/40117155/280486540-313615c5-4675-41dd-9317-deef62f19c26.png)
+    
+If you liked my work, please give a star!⭐️
