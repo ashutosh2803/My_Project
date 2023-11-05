@@ -13,7 +13,7 @@ To run the app locally,
 
 ![Costa_Coffee](https://user-images.githubusercontent.com/40117155/280486540-313615c5-4675-41dd-9317-deef62f19c26.png)
 
-#Contributors
+# Contributors
 ## Ashutosh Kumar
 ## Harshit Jaiswal
     
