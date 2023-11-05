@@ -1,24 +1,17 @@
-# Multi-stage
-# 1) Node image for building frontend assets
-# 2) nginx stage to serve frontend assets
+FROM node:18.12.1-buster-slim AS builder
 
-# Name the node stage "builder"
-FROM node:18-alpine as builder
-# Set working directory
 WORKDIR /app
-# Copy all files from current directory to working dir in image
-COPY . .
-# Install dependencies
-RUN npm install
-# Build the React app for production
+COPY package.json package-lock.json ./
+COPY public/ public/
+COPY src/ src/
+RUN npm ci
 RUN npm run build
-# nginx state for serving content
-FROM nginx:stable-alpine
-# Set working directory to nginx asset directory
-WORKDIR /usr/share/nginx/html
-# Remove default nginx static assets
-RUN rm -rf ./*
-# Copy static assets from builder stage
-COPY --from=builder /app/build .
-# Containers run nginx with global directives and daemon off
-ENTRYPOINT ["nginx", "-g", "daemon off;"]
+
+FROM nginx:1.23.2-alpine
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=builder /app/build /usr/share/nginx/html
+RUN touch /var/run/nginx.pid
+RUN chown -R nginx:nginx /var/run/nginx.pid /usr/share/nginx/html /var/cache/nginx /var/log/nginx /etc/nginx/conf.d
+USER nginx
+EXPOSE 8080
+CMD ["nginx", "-g", "daemon off;"]
