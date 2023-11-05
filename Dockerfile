@@ -1,14 +1,18 @@
-FROM node:18.12.1-buster-slim AS builder
+FROM node:18-alpine as build
 
+# Set the working directory in the container
 WORKDIR /app
-COPY package.json package-lock.json ./
-COPY public/ public/
-COPY src/ src/
-RUN npm ci
-RUN npm run build
 
-FROM nginx:stable-alpine
-COPY --from=builder /app/nginx nginx.conf /etc/nginx/conf.d/default.conf
-COPY --from=builder /app/build /usr/share/nginx/html
+# Copy package.json and package-lock.json to the working directory
+COPY package*.json ./
 
-CMD ["nginx", "-g", "daemon off;"]
+#  Install dependencies
+RUN npm install
+
+# Copy the entire application code to the container
+COPY . .
+
+# Expose port 8081 for the node server
+EXPOSE 8081
+
+CMD [ "npm", "start"]
