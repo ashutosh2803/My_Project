@@ -1,8 +1,14 @@
 import React from 'react'
+import Footer from './Footer'
+import Details from './Details'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div>
+      <Details/>
+      <Footer />
+    </div>
+    
   )
 }
 

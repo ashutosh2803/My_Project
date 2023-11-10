@@ -1,0 +1,34 @@
+[
+    {
+        "img": "https://images.ctfassets.net/27hc2gu70btq/3WxRApbC6RGuBISl3h5Q4A/476141fead9ae165e321322bf6c674dc/Sub-Images_Desktop-696x512.jpg?w=696&h=512&q=100&fm=webp",
+        "title": "Our Coffee",
+        "paragraph": "Our iconic Signature Blends are slow roasted for the perfect balance of rich flavour and smooth taste. We guarantee you the freshest taste and finest ingredients, every time. Check out our full range of drinks, snacks and meals and discover your favourites.",
+        "buttonName": "Explore the full menu",
+        "order": 0,
+        "bgColor": "rgb(176,221,245)"
+    },
+    {
+        "img": "https://images.ctfassets.net/27hc2gu70btq/4HKXtmwmMoJo5CeHV4R706/0266ad24d7ad232a02ca85f6818f9dab/CC_HomePage_OurStory_Secondary_696x512.jpg?w=696&h=512&q=100&fm=webp",
+        "title": "Our Story",
+        "paragraph": "It began in 1971 when two brothers, Sergio and Bruno Costa, moved to London with the desire to make great coffee. They went on to blind-test 112 different variations of coffee before arriving at the perfect one, the 'Mocha Italia', which remains our signature blend to this day.",
+        "buttonName": "Get the full story",
+        "order": 1,
+        "bgColor": "rgb(206,169,202)"
+    },
+    {
+        "img": "https://images.ctfassets.net/27hc2gu70btq/gsfhyFCKCP8VOzNeUpLYT/5603bdb6d6f469e40c91baef7eaf23bc/CC_HomePage_OurCoffee_Secondary_696x512.jpg?w=696&h=512&q=100&fm=webp",
+        "title": "Our Sustainability Efforts",
+        "paragraph": "At Costa Coffee, we're just as committed to our communities, the people we serve and the world we live in as we are about serving great coffee. We are always working on crafting more sustainable coffee – from bean to cup.",
+        "buttonName": "Learn more",
+        "order": 0,
+        "bgColor": "rgb(239,125,129)"
+    },
+    {
+        "img": "https://images.ctfassets.net/27hc2gu70btq/2j9iGZcYnAVVdkOBYtDxyz/1ce6f73cda3323bf3d77fbd85ea68b3e/CC_HomePage_FindUs_Secondary_684x400.jpg?w=648&h=400&q=100&fm=webp",
+        "title": "Find a Costa Coffee near you",
+        "paragraph": "Great coffee is just around the corner. Use our store locator to find the nearest Costa Coffee outlet to you and enjoy our freshly brewed coffee.",
+        "buttonName": "Find a Costa",
+        "order": 1,
+        "bgColor": "rgb(220,220,223)"
+    }
+]
