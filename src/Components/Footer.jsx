@@ -6,7 +6,7 @@ import TwitterLogo from '../assets/twitter_logo.png';
 const Footer = () => {
   return (
     <div>
-      <div className='d-flex flex-column flex-wrap text-white' style={{backgroundColor: 'rgb(181,16,69)'}}>
+      <div className='d-flex flex-row flex-wrap text-white' style={{backgroundColor: 'rgb(181,16,69)', letterSpacing: "0.1ch", paddingLeft: "5.2%"}}>
         <div>
           <div><h3>Costa Coffee</h3></div>
           <div>
@@ -17,13 +17,13 @@ const Footer = () => {
             <div>FAQs</div>
           </div>
         </div>
-        <div>
+        <div style={{paddingLeft: "5.2%"}}>
           <div><h3>Dietary Information</h3></div>
           <div>
             <div>Detailed dietary information</div>
           </div>
         </div>
-        <div>
+        <div style={{paddingLeft: "5.2%"}}>
           <div><h3>Behind the beans</h3></div>
           <div>
             <div>Behind the Beans</div>
