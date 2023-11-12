@@ -1,5 +1,7 @@
 import React from 'react'
 import "../css/Navbar.css"
+import Video from '../assets/bannerV3.mp4'
+import CostaCoffeeLogo from "../assets/Costa_Coffee_logo.png"
 
 const Navbar = () => {
   return (
@@ -7,18 +9,22 @@ const Navbar = () => {
       <header>
         <div className="header">
           <nav className="navigation">
-            <a href="#!" className="navbar-logo">Logo</a>
+            <a href="#!" className="navbar-logo"><img src={CostaCoffeeLogo} style={{width: "20%"}} alt='costa_logo' /></a>
             <div className="navbar-right">
-              <a href="#!">About</a>
-              <a href="#!">Blog</a>
-              <a href="#!">Contact</a>
+              <a href="#!">Our Story</a>
+              <a href="#!">Our Menu</a>
+              <a href="#!">Costa Club</a>
+              <a href="#!">Order Online</a>
+              <a href="#!">Behind the Beans</a>
+              <a href="#!">Store Locator</a>
+              <a href="#!">What's New!</a>
             </div>
           </nav>
 
           <div className="video-container">
             <video autoPlay loop muted id="video-bg">
 
-              <source src="https://youtu.be/Q5_3O50SnfY?si=dHyedNaAhfKjymto" type="video/mp4"/>
+            <source src={Video} type="video/mp4"/>
 
             </video>
           </div>
