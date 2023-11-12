@@ -11,7 +11,7 @@ To run the app locally,
     ### `npm install`
     ### `npm start`
 
-![Costa_Coffee](https://user-images.githubusercontent.com/40117155/280486540-313615c5-4675-41dd-9317-deef62f19c26.png)
+![Costa_Coffee](https://user-images.githubusercontent.com/40117155/282278001-25a0aef1-0569-484a-af8e-0d7540603974.png)
 
 # Contributors
 ## Ashutosh Kumar
