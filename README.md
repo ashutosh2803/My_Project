@@ -6,12 +6,14 @@ To run the deployed app, visit https://costa-coffee.netlify.app
 
 To run the app locally, 
 
+Pre-requisites : NodeJS, Git, Text Editor (VSCode preffered)
+
 1.  download the repository in your pc locally.
 2.  run these commands
     ### `npm install`
     ### `npm start`
 
-![Costa_Coffee](https://user-images.githubusercontent.com/40117155/280486540-313615c5-4675-41dd-9317-deef62f19c26.png)
+![Costa_Coffee](https://user-images.githubusercontent.com/40117155/282278443-7a2c03cd-6cb6-41ea-9592-61513138d6be.png)
 
 # Contributors
 ## Ashutosh Kumar
