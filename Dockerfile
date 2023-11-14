@@ -13,6 +13,6 @@ RUN npm install
 COPY . .
 
 # Expose port 8081 for the node server
-EXPOSE 8081
+EXPOSE 3000
 
 CMD [ "npm", "start"]
